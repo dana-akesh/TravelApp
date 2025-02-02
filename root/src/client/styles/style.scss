@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  background: url("background.jpg") center center;
+  background-size: cover;
+}
+
+.AnswerBox {
+  background: rgba(79, 133, 155, 0.58);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  border: 2px solid white;
+  border-radius: 20px;
+}
+
+.AnswerBox h2 {
+  font-size: 30px;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+}
+
+:focus {
+  outline: rgba(8, 66, 87, 0.58);
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  color: skyblue;
+  font-size: 16px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.holder {
+  color: white;
+}
+
+.entry_points {
+  padding-top: 70px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.images_flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#generate {
+  margin-top: 50px;
+  border: solid 1px white;
+  background-color: rgba(79, 133, 155, 0.58);
+  color: white;
+  padding: 20px;
+  font-size: 26px;
+  font-family: 'Oswald', sans-serif;
+  margin-bottom: 10px;
+  border-radius: 30px;
+}
+
+#generate:hover {
+  background-color: white;
+  color: rgba(216, 241, 251, 0.58);
+
+}
+
+#generate:active {
+  background-color: rgba(79, 133, 155, 0.58);
+  color: white;
+}
+
+#generate:visited {
+  background-color: rgba(79, 133, 155, 0.58);
+  color: white;
+}
+
+#generate:link {
+  background-color: rgba(79, 133, 155, 0.58);
+  color: white;
+}
+
+label {
+  display: block;
+  font-size: 27px;
+}
+
+.city, .dateOfTrip {
+  margin-right: 30px;
+}
+
+
+input {
+  display: flex;
+  flex: 1;
+  background: rgba(79, 133, 155, 0.58);
+  color: white;
+  font-size: 16px;
+  font-family: 'Oswald', sans-serif;
+  border: solid;
+  border-radius: 20px;
+  //padding-left: 8px;
+  padding: 20px 30px;
+  margin-bottom: 10px;
+
+}
+
+
+h1 {
+  font-size: 24px;
+}
+
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
+::placeholder { /* Firefox, Chrome, Opera */
+  color: white;
+  font-family: 'Oswald', sans-serif;
+
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: white;
+  font-family: 'Oswald', sans-serif;
+
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: white;
+  font-family: 'Oswald', sans-serif;
+
+}
+
+.Name_Date {
+  display: flex;
+  gap: 80px;
+
+}
+
+.item {
+  font-size: 30px;
+
+}

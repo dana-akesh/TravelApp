@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navBar {
+  // glass morphism effect
+  background-color: rgba(79, 133, 155, 0.58);
+  backdrop-filter: blur(10px);
+
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  padding: 16px 0;
+}
+
+.fa-plane {
+  font-size: 40px;
+  padding: 0 15px;
+  color: rgba(216, 241, 251, 0.58);
+}
+
+.navBar li h1, .fa-plane {
+  color: rgba(216, 241, 251, 0.58);
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  align-content: baseline;
+  font-family: 'Oswald', sans-serif;
+}
